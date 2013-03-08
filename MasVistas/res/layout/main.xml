@@ -3,9 +3,22 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MasVistasActivity" >
+
+    <EditText
+        android:id="@+id/entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduce un número"
+        android:inputType="numberDecimal"
+        android:tag="0" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/button1"
@@ -13,5 +26,22 @@
         android:layout_height="wrap_content"
         android:background="@drawable/boton"
         android:onClick="sePulsa" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sePulsa0"
+        android:tag="0"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/salida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Resultado"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000FF" />
 
 </LinearLayout>
