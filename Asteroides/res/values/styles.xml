@@ -30,9 +30,13 @@
     <style name="MiTema" parent="@android:style/Theme.Dialog">
         <!-- <item name="android:typeface">monospace</item> -->
         <item name="android:textStyle">bold</item>
-        
-        
     </style>
+    
+    <style name="aboutApp" parent="@android:style/Theme.Dialog">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
     
     <style name="TemaAsteroides" parent="@android:style/Theme.NoTitleBar"></style>
     
