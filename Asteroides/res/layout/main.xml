@@ -29,10 +29,11 @@
             android:text="@string/playBtn" />
 
         <Button
-            style="@style/TextoAsteroides.Botones"
             android:id="@+id/confBtn"
+            style="@style/TextoAsteroides.Botones"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="lanzarPreferencias"
             android:text="@string/confBtn" />
 
         <Button
@@ -42,6 +43,11 @@
             android:layout_height="wrap_content"
             android:onClick="lanzarAcercaDe"
             android:text="@string/aboutBtn" />
+
+        <Button            android:id="@+id/bScore"
+            style="@style/TextoAsteroides.Botones"
+            android:text="@string/bScore" 
+            android:onClick="viewScore"/>
 
         <Button
             style="@style/TextoAsteroides.Botones"

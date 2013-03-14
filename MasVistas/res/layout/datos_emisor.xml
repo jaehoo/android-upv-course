@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".DatosEmisor" >
+
+    <EditText
+        android:id="@+id/tParamData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="senData"
+        android:text="Enviar Datos" />
+
+    <Button
+        android:id="@+id/bSend2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="senDataWithResponse"
+        android:text="Enviar y responder" />
+
+</LinearLayout>

@@ -10,5 +10,6 @@
     <string name="confBtn">Configuration</string>
     <string name="aboutBtn">About</string>
     <string name="exitBtn">Exit</string>
+    <string name="bScore">Score</string>
 
 </resources>

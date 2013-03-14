@@ -13,14 +13,31 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
         <activity
-            android:name="com.example.masvistas.MasVistasActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
+            android:name="com.example.masvistas.MainMenu"
+            android:label="@string/title_activity_main_menu" >
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.masvistas.Counter"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.masvistas.DatosReceptor"
+            android:label="About"
+            android:theme="@style/dialogTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.example.masvistas.DatosEmisor"
+            android:label="@string/title_activity_datos_emisor" >
         </activity>
     </application>
 
