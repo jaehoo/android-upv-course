@@ -8,17 +8,21 @@
     tools:context=".MainMenu" >
 
     <Button
+        style="@style/MainMenu.Botones"
         android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:onClick="openCounter"
         android:text="Contador" />
 
     <Button
+        style="@style/MainMenu.Botones"
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:onClick="openPassData"
         android:text="Pasar datos" />
+
+    <Button
+        style="@style/MainMenu.Botones"
+        android:id="@+id/button3"
+        android:onClick="openSingleList"
+        android:text="Lista Sencilla" />
 
 </LinearLayout>

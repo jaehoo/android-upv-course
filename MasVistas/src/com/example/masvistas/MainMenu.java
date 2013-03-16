@@ -33,5 +33,10 @@ public class MainMenu extends Activity {
 		
 	}
 	
+	public void openSingleList(View view){
+		Intent i= new Intent(this, SingleList.class );
+		startActivity(i);
+	}
+	
 	
 }
