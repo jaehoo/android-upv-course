@@ -39,6 +39,29 @@
             android:name="com.example.masvistas.SingleList"
             android:label="@string/title_activity_single_list" >
         </activity>
+        <activity
+            android:name="com.example.masvistas.CustomList"
+            android:label="@string/title_activity_custom_list" >
+        </activity>
+        <activity
+            android:name="com.example.masvistas.CustomList2"
+            android:label="@string/title_activity_custom_list" >
+        </activity>
+        <activity
+            android:name="com.example.masvistas.Preferencias"
+            android:label="@string/title_activity_pref" >
+        </activity>
+        <activity
+            android:name="com.example.masvistas.MenuPreferencias"
+            android:label="@string/title_activity_menu_preferencias" >
+        </activity>
+        
+        <activity
+            android:name="com.example.masvistas.MenuIntenciones"
+            android:label="@string/title_activity_menu_intenciones" >
+        </activity>
+        
     </application>
 
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>

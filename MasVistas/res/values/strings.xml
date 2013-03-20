@@ -7,5 +7,9 @@
     <string name="title_activity_main_menu">MainMenu</string>
     <string name="title_activity_datos_emisor">DatosEmisor</string>
     <string name="title_activity_single_list">SingleList</string>
+    <string name="title_activity_custom_list">Custom List</string>
+    <string name="title_activity_pref">Preferences EX</string>
+    <string name="title_activity_menu_preferencias">Menu Preferencias</string>
+    <string name="title_activity_menu_intenciones">Menu Intenciones</string>
 
 </resources>

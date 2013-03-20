@@ -8,21 +8,51 @@
     tools:context=".MainMenu" >
 
     <Button
-        style="@style/MainMenu.Botones"
         android:id="@+id/button1"
+        style="@style/MainMenu.Botones"
         android:onClick="openCounter"
         android:text="Contador" />
 
     <Button
-        style="@style/MainMenu.Botones"
         android:id="@+id/button2"
+        style="@style/MainMenu.Botones"
         android:onClick="openPassData"
         android:text="Pasar datos" />
 
     <Button
-        style="@style/MainMenu.Botones"
         android:id="@+id/button3"
+        style="@style/MainMenu.Botones"
         android:onClick="openSingleList"
         android:text="Lista Sencilla" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/MainMenu.Botones"
+        android:onClick="openCustomList"
+        android:text="Lista Personalizada" />
+    
+    <Button
+        android:id="@+id/button6"
+        style="@style/MainMenu.Botones"
+        android:onClick="openCustomList2"
+        android:text="Lista Personalizada 2" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/MainMenu.Botones"
+        android:onClick="openMenuPreferneces"
+        android:text="Preferencias" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/MainMenu.Botones"
+        android:onClick="openInetntions"
+        android:text="Intenciones" />
+    
+    <Button
+        android:id="@+id/exit"
+        style="@style/MainMenu.Botones"
+        android:onClick="quitApp"
+        android:text="Salir" />
 
 </LinearLayout>

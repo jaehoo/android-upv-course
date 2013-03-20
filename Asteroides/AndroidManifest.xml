@@ -36,6 +36,11 @@
             android:name="com.example.asteroides.Puntuaciones"
             android:label="@string/title_activity_puntuaciones" >
         </activity>
+        
+         <activity
+            android:name="com.example.asteroides.MenuPuntuaciones"
+            android:label="@string/title_activity_puntuaciones" >
+        </activity>
     </application>
 
 </manifest>

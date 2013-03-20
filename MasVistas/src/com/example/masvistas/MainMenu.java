@@ -38,5 +38,28 @@ public class MainMenu extends Activity {
 		startActivity(i);
 	}
 	
+	public void openMenuPreferneces(View view) {
+		Intent i = new Intent(this, MenuPreferencias.class);
+		startActivity(i);
+	}
+	
+	public void openCustomList(View view){
+		Intent i = new Intent(this, CustomList.class);
+		startActivity(i);
+	}
+	
+	public void openCustomList2(View view){
+		Intent i = new Intent(this, CustomList2.class);
+		startActivity(i);
+	}
+	
+	public void openInetntions(View view){
+		Intent i = new Intent(this, MenuIntenciones.class);
+		startActivity(i);
+	}
+	
+	public void quitApp(View view){
+		finish();
+	}
 	
 }
